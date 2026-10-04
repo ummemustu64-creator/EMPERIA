@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Collection — EMPERIA LED</title><meta name="description" content="Browse the EMPERIA LED lighting collection by category and tag."><link rel="stylesheet" href="styles.css"></head><body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="home.html" data-brand>EMPERIA LED</a><nav class="site-nav"><a href="home.html">Home</a><a href="collection.html">Collection</a><a href="applications.html">Applications</a><a href="projects.html">Projects</a><a href="about.html">About Us</a><a href="catalogue.html">Catalogue</a><a href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Request a Quote</a></nav><button class="menu-toggle">☰</button></div></header>
+<main><section class="page-hero"><div class="container"><p class="eyebrow">The range</p><h1>Collection</h1><p>Browse the EMPERIA LED collection by category. Product pages can hold multiple images, variations, technical information and project-focused enquiries.</p></div></section><section class="section" style="padding-top:15px"><div class="container"><div class="toolbar"><input id="search" class="search" placeholder="Search products…"><div id="chips" class="chips"></div><select id="tagFilter" class="chip"><option value="All">All tags</option><option>Featured</option><option>New</option><option>Popular</option><option>Best Seller</option></select></div><div id="resultCount" class="eyebrow" style="margin-bottom:16px"></div><div id="grid" class="product-grid"></div></div></section></main>
+<footer class="footer"><div class="container footer-bottom"><span>© <span data-year></span> EMPERIA LED</span><span><a href="contact.html">Contact sales →</a></span></div></footer><script src="shared.js"></script><script>
+let products=[], category=(new URLSearchParams(location.search).get('category')||'All').trim(), tag='All';
+const normalizeCategory=v=>String(v||'').trim().toLowerCase();
+const categoryKey=v=>normalizeCategory(v);
+async function init(){
+  try{
+    const [s,p]=await Promise.all([loadSettings(),getJSON('/api/products')]);
+    setupNav(s); footer(s);
+    products=Array.isArray(p)?p:[];
+    const categories=[...new Map(products.map(x=>[categoryKey(x.category),String(x.category||'').trim()]).filter(([k])=>k)).values()].sort((a,b)=>a.localeCompare(b));
+    if(category!=='All' && !categories.some(c=>categoryKey(c)===categoryKey(category))) category='All';
+    renderCategoryChips(categories);
+    render();
+  }catch(err){
+    console.error(err);
+    document.getElementById('resultCount').textContent='Unable to load products';
+    document.getElementById('grid').innerHTML='<div class="notice" style="grid-column:1/-1">Could not load the product collection. Please refresh the page.</div>';
+  }
+}
+function renderCategoryChips(categories){
+  const chips=document.getElementById('chips');
+  chips.innerHTML='';
+  ['All',...categories].forEach(c=>{
+    const btn=document.createElement('button');
+    btn.type='button'; btn.className='chip'+(categoryKey(c)===categoryKey(category)?' active':''); btn.textContent=c;
+    btn.addEventListener('click',()=>setCategory(c));
+    chips.appendChild(btn);
+  });
+}
+function setCategory(c){
+  category=String(c||'All').trim()||'All';
+  const url=category==='All'?'collection.html':'collection.html?category='+encodeURIComponent(category);
+  history.replaceState({},'',url);
+  document.querySelectorAll('#chips .chip').forEach(btn=>btn.classList.toggle('active',categoryKey(btn.textContent)===categoryKey(category)));
+  render();
+}
+function render(){
+  const q=document.getElementById('search').value.trim().toLowerCase();
+  const selected=categoryKey(category);
+  const list=products.filter(p=>{
+    const matchesCategory=selected==='all'||categoryKey(p.category)===selected;
+    const matchesTag=tag==='All'||String(p.tag||'')===tag;
+    const haystack=`${p.name||''} ${p.category||''} ${p.description||''} ${p.sku||''}`.toLowerCase();
+    return matchesCategory&&matchesTag&&haystack.includes(q);
+  });
+  document.getElementById('resultCount').textContent=list.length+' products';
+  document.getElementById('grid').innerHTML=list.length?list.map(productCard).join(''):`<div class="notice" style="grid-column:1/-1">No products match your search.</div>`;
+}
+document.getElementById('tagFilter').addEventListener('change',e=>{tag=e.target.value;render()});
+document.getElementById('search').addEventListener('input',render);
+init();
+</script></body></html>

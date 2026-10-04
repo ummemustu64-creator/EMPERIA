@@ -1,0 +1,508 @@
+[
+  {
+    "id": "joy-box",
+    "name": "Joy Box",
+    "category": "Panel Lights",
+    "tag": "Featured",
+    "description": "Compact recessed panel lighting with a clean square-and-round family. Designed for homes, offices, hotels and institutional spaces.",
+    "specs": {
+      "Power": "3W / 8W / 12W / 15W / 22W",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "joy-box.jpg"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-JOY-BOX"
+  },
+  {
+    "id": "edgelite-panel",
+    "name": "Edgelite Panel",
+    "category": "Panel Lights",
+    "tag": "Featured",
+    "description": "Slim, understated panel lighting for modern ceilings and commercial interiors.",
+    "specs": {
+      "Power": "Panel series",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Applications": "Home, Hotels, Hospital, Institute, Industries, Offices, Apartments"
+    },
+    "images": [
+      "edgelite-panel.jpg"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-EDGELITE-P"
+  },
+  {
+    "id": "ssk-down",
+    "name": "SSK Down",
+    "category": "Downlights",
+    "tag": "New",
+    "description": "Recessed downlight family with multiple wattage options and a neat architectural finish.",
+    "specs": {
+      "Power": "5W / 8W / 12W / 20W / 24W",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "ssk-down.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "sku": "EMP-SSK-DOWN"
+  },
+  {
+    "id": "aura-light",
+    "name": "Aura Light",
+    "category": "Panel Lights",
+    "tag": "Popular",
+    "description": "Soft, contemporary ceiling illumination designed to blend into residential and hospitality spaces.",
+    "specs": {
+      "Power": "Multiple sizes",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Applications": "Home, Hotels, Offices, Apartments"
+    },
+    "images": [
+      "aura-light.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "sku": "EMP-AURA-LIGHT"
+  },
+  {
+    "id": "evoq",
+    "name": "Evoq",
+    "category": "Panel Lights",
+    "tag": "New",
+    "description": "Adjustable-border panel series with a broad choice of colour temperatures and accent colours.",
+    "specs": {
+      "Power": "5W / 15W / 22W",
+      "Colour": "3K, 4K, 6K, 3 in 1, Blue, Pink",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "evoq.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "sku": "EMP-EVOQ"
+  },
+  {
+    "id": "multi-glow",
+    "name": "Multi Glow",
+    "category": "Decorative Panels",
+    "tag": "Featured",
+    "description": "Two-colour glow panel family for spaces that need a more expressive lighting mood.",
+    "specs": {
+      "Power": "3W / 6W / 12W",
+      "Colour": "White + Pink, White + Blue, Jelly PBG, Lemon + Orange",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "multi-glow.jpg"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-MULTI-GLOW"
+  },
+  {
+    "id": "surface-panel-pro",
+    "name": "Surface Panel Pro",
+    "category": "Panel Lights",
+    "tag": "Popular",
+    "description": "Rimless surface panel design with a clean profile for contemporary ceilings.",
+    "specs": {
+      "Power": "5W / 15W / 22W",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Applications": "Home, Hotels, Offices, Apartments"
+    },
+    "images": [
+      "surface-panel-pro.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "sku": "EMP-SURFACE-PA"
+  },
+  {
+    "id": "surface-panel",
+    "name": "Surface Panel",
+    "category": "Panel Lights",
+    "tag": "Classic",
+    "description": "Versatile surface-mounted panel lighting for everyday residential and commercial applications.",
+    "specs": {
+      "Power": "Multiple sizes",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "surface-panel.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-SURFACE-PA"
+  },
+  {
+    "id": "venox",
+    "name": "Venox",
+    "category": "Ceiling Lights",
+    "tag": "New",
+    "description": "Minimal ceiling panel family with adaptable finish and compact form.",
+    "specs": {
+      "Power": "Multiple options",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "venox.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "sku": "EMP-VENOX"
+  },
+  {
+    "id": "implus-panel-light",
+    "name": "Implus Panel Light",
+    "category": "Panel Lights",
+    "tag": "Featured",
+    "description": "Slim panel lighting intended for clean, bright ceiling layouts.",
+    "specs": {
+      "Power": "Multiple options",
+      "Colour": "3K, 4K, 6K, 3 in 1",
+      "Applications": "Home, Hotels, Offices, Apartments"
+    },
+    "images": [
+      "implus-panel-light.jpg"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-IMPLUS-PAN"
+  },
+  {
+    "id": "chargeable-flood",
+    "name": "Chargeable Flood",
+    "category": "Flood Lights",
+    "tag": "Utility",
+    "description": "Portable chargeable flood light concept for flexible illumination where mains power is not convenient.",
+    "specs": {
+      "Type": "Rechargeable flood light",
+      "Applications": "Outdoor, utility, emergency"
+    },
+    "images": [
+      "chargeable-flood.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-CHARGEABLE"
+  },
+  {
+    "id": "bulb",
+    "name": "Bulb",
+    "category": "Bulbs",
+    "tag": "Essential",
+    "description": "Everyday LED bulb range for practical, efficient general lighting.",
+    "specs": {
+      "Type": "LED Bulb",
+      "Colour": "Multiple colour options",
+      "Applications": "Home, Offices, Shops"
+    },
+    "images": [
+      "bulb.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-BULB"
+  },
+  {
+    "id": "spot-light",
+    "name": "Spot Light",
+    "category": "Spot Lights",
+    "tag": "Popular",
+    "description": "Compact spot light series for focused architectural and display illumination.",
+    "specs": {
+      "Power": "1W / 2W / 3W",
+      "Colour": "3K, 4K, 6K, Blue, Pink, Green, Red",
+      "Applications": "Home, Hotels, Offices, Display"
+    },
+    "images": [
+      "spot-light.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "sku": "EMP-SPOT-LIGHT"
+  },
+  {
+    "id": "unique-spot-rose-gold",
+    "name": "Unique Spot Rose Gold",
+    "category": "Spot Lights",
+    "tag": "Premium",
+    "description": "Decorative spot series with a rose-gold finish for refined interior applications.",
+    "specs": {
+      "Finish": "Rose Gold",
+      "Applications": "Home, Hotels, Offices, Display"
+    },
+    "images": [
+      "unique-spot-rose-gold.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-UNIQUE-SPO"
+  },
+  {
+    "id": "tenta-spot",
+    "name": "Tenta Spot",
+    "category": "Spot Lights",
+    "tag": "Popular",
+    "description": "Directional spot family with multiple colour choices for accent lighting.",
+    "specs": {
+      "Power": "3W",
+      "Colour": "3K, 4K, 6K, Green, Blue, Pink",
+      "Applications": "Home, Hotels, Offices"
+    },
+    "images": [
+      "tenta-spot.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": true,
+    "sku": "EMP-TENTA-SPOT"
+  },
+  {
+    "id": "hexa-spot",
+    "name": "Hexa Spot",
+    "category": "Spot Lights",
+    "tag": "Premium",
+    "description": "Distinctive hexagonal spot profile for decorative and architectural lighting.",
+    "specs": {
+      "Colour": "Multiple colour options",
+      "Applications": "Home, Hotels, Offices, Display"
+    },
+    "images": [
+      "hexa-spot.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-HEXA-SPOT"
+  },
+  {
+    "id": "extreme-movable",
+    "name": "Extreme Movable Panel",
+    "category": "Movable Lights",
+    "tag": "Featured",
+    "description": "Movable panel family that lets the beam direction follow the space and furniture layout.",
+    "specs": {
+      "Colour": "3K, 4K, 6K, Blue, Pink, Green, Red, 3 in 1, RGB",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "extreme-movable.jpg"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-EXTREME-MO"
+  },
+  {
+    "id": "dior-cob",
+    "name": "Dior COB",
+    "category": "COB Lights",
+    "tag": "Premium",
+    "description": "COB downlight series with a refined trim for focused, high-impact illumination.",
+    "specs": {
+      "Colour": "3K, 4K, 6K, Blue, Pink, Green, Red, 3 in 1, RGB",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "dior-cob.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-DIOR-COB"
+  },
+  {
+    "id": "striker",
+    "name": "Striker",
+    "category": "Downlights",
+    "tag": "Classic",
+    "description": "Striker series available in aluminum and moon variants for versatile recessed lighting.",
+    "specs": {
+      "Type": "Aluminum Striker / Moon Striker",
+      "Applications": "Home, Hotels, Offices, Apartments"
+    },
+    "images": [
+      "striker.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-STRIKER"
+  },
+  {
+    "id": "flower-movable-cob",
+    "name": "Flower Movable COB",
+    "category": "COB Lights",
+    "tag": "Decorative",
+    "description": "Movable COB family with a flower-inspired form for expressive ceiling layouts.",
+    "specs": {
+      "Type": "Movable COB",
+      "Colour": "Multiple colour options",
+      "Warranty": "2 Years"
+    },
+    "images": [
+      "flower-movable-cob.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-FLOWER-MOV"
+  },
+  {
+    "id": "track-channel",
+    "name": "Track Channel",
+    "category": "Track Lights",
+    "tag": "Architectural",
+    "description": "Track channel system with accessories and hanging-wire options for flexible layouts.",
+    "specs": {
+      "Colour": "Black & White",
+      "Applications": "Retail, Display, Hospitality, Interiors"
+    },
+    "images": [
+      "track-channel.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-TRACK-CHAN"
+  },
+  {
+    "id": "superior-track",
+    "name": "Superior Track",
+    "category": "Track Lights",
+    "tag": "Featured",
+    "description": "Track lighting system for directional, adjustable illumination across retail and architectural spaces.",
+    "specs": {
+      "Type": "Track light system",
+      "Applications": "Retail, Display, Hospitality"
+    },
+    "images": [
+      "superior-track.jpg"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-SUPERIOR-T"
+  },
+  {
+    "id": "spring-spot",
+    "name": "Spring Spot",
+    "category": "Spot Lights",
+    "tag": "Classic",
+    "description": "Spring-mounted spot series for flexible installation and directional light.",
+    "specs": {
+      "Type": "Spring spot",
+      "Applications": "Home, Hotels, Offices"
+    },
+    "images": [
+      "spring-spot.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-SPRING-SPO"
+  },
+  {
+    "id": "unique-surface-track",
+    "name": "Unique Surface Track",
+    "category": "Track Lights",
+    "tag": "Premium",
+    "description": "Surface track family combining a clean linear installation with adjustable spot heads.",
+    "specs": {
+      "Type": "Surface track",
+      "Applications": "Retail, Gallery, Hospitality, Interiors"
+    },
+    "images": [
+      "unique-surface-track.jpg"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": false,
+    "bestSeller": false,
+    "sku": "EMP-UNIQUE-SUR"
+  },
+  {
+    "id": "underwater-pool-light",
+    "name": "Underwater Pool Light",
+    "category": "Underwater Lights",
+    "tag": "New",
+    "description": "Underwater lighting for swimming-pool environments and water features. Contact EMPERIA LED for configuration and technical details.",
+    "specs": {
+      "Applications": "Swimming pools, water features"
+    },
+    "images": [
+      "underwater-pool-light.png"
+    ],
+    "variations": [],
+    "featured": false,
+    "newArrival": true,
+    "bestSeller": false,
+    "sku": "EMP-UNDERWATER-POOL"
+  },
+  {
+    "id": "fountain-light",
+    "name": "Fountain Light",
+    "category": "Fountain Lights",
+    "tag": "New",
+    "description": "Decorative underwater fountain lighting designed for water features. Contact EMPERIA LED for configuration and technical details.",
+    "specs": {
+      "Applications": "Fountains, water features"
+    },
+    "images": [
+      "fountain-light.png"
+    ],
+    "variations": [],
+    "featured": true,
+    "newArrival": true,
+    "bestSeller": false,
+    "sku": "EMP-FOUNTAIN-LIGHT"
+  }
+]

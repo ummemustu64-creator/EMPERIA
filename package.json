@@ -1,0 +1,9 @@
+{
+  "name": "emperia-led-website",
+  "version": "3.0.0",
+  "private": true,
+  "description": "EMPERIA LED catalogue website with CMS-style admin panel",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^5.1.0", "multer": "^2.0.2" }
+}
